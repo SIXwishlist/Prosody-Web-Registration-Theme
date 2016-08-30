@@ -4,15 +4,19 @@ This is a modified version of [Malte's Template](https://github.com/beli3ver/Pro
 
 ## Installation:
 
+```
 mkdir /etc/prosody/register-templates/
 cd /etc/prosody/register-templates
 git clone https://github.com/alex1702/Prosody-Web-Registration-Theme
+```
 
 
 In der prosody.cfg.lua:
 
+```
 -- Register Web Template files
 register_web_template = "/etc/prosody/register-templates/Prosody-Web-Registration-Theme";
+```
 
 ## Screenshots
 Regestrierformular
